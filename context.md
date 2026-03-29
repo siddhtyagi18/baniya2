@@ -1,13 +1,13 @@
-# BANIYA — Complete AI Context Document
+# AWE - Agent workflow engine — Complete AI Context Document
 
-> This file is the single source of truth the AI needs to build Baniya from scratch.
+> This file is the single source of truth the AI needs to build AWE - Agent workflow engine from scratch.
 > Feed this entire file as context before starting any code generation.
 
 ---
 
 ## 1. WHAT IS BANIYA
 
-Baniya is a visual AI pipeline builder. Users drag nodes onto a canvas, connect them with edges, and run workflows. The core differentiator is automatic data sensitivity classification — before every LLM call, Baniya reads the payload, detects PII, and routes the prompt to the cheapest model that is legally allowed to see that data. Private data stays local. Public data goes cloud. Every decision is logged.
+AWE - Agent workflow engine is a visual AI pipeline builder. Users drag nodes onto a canvas, connect them with edges, and run workflows. The core differentiator is automatic data sensitivity classification — before every LLM call, AWE - Agent workflow engine reads the payload, detects PII, and routes the prompt to the cheapest model that is legally allowed to see that data. Private data stays local. Public data goes cloud. Every decision is logged.
 
 **It is not:**
 - An integration platform (no Gmail, Slack, Notion, Airtable connectors)
@@ -24,11 +24,11 @@ Baniya is a visual AI pipeline builder. Users drag nodes onto a canvas, connect 
 
 ## 2. NAME AND BRANDING
 
-- **Project name:** Baniya
+- **Project name:** AWE - Agent workflow engine
 - **Tagline:** Shrewd routing. Zero waste. Your data stays where it belongs.
 - **Primary colour:** `#0D9E75` (teal)
 - **Logo:** lowercase "baniya" with a ₹ coin icon to the left
-- **Name origin:** The Baniya community built India's trading economy on extracting maximum value at minimum cost — exactly what this router does with LLM spend
+- **Name origin:** The AWE community built India's trading economy on extracting maximum value at minimum cost — exactly what this router does with LLM spend
 
 ---
 
@@ -594,7 +594,7 @@ method   select   POST|GET   default: POST
 **1. Summary cards (row of 4):**
 - Total spend (month): `₹ X.XX ($Y.YY)`
 - If all cloud: `₹ X.XX ($Y.YY)`
-- Baniya saved: `₹ X.XX (Z%)`
+- AWE saved: `₹ X.XX (Z%)`
 - Executions: `N`
 
 **2. Two charts:**
